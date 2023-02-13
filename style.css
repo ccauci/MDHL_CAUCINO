@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+ background-color: white;
+ width: 100vw;
+ height: 100vh;
+}
+
+
+
+header{ 
+    width: 80vw;
+    height: 25vh;
+    margin: 80px 10%;
+    background-image: url(/asset/design1_image1.ico);
+    background-size: cover;
+    background-position: 0 40%;
+    padding: .5rem;
+    display:inline-block;
+    
+    
+    
+}
+
+header>h1{
+    display: inline-block;
+    padding: 2rem;
+    font-size: 2.5rem;
+    width: 60vw;
+    height: 30vh;
+    position: absolute;
+    top: 0vh;
+    left: 20.5vh;
+    text-align: left;
+    font-family: sans-serif;
+    
+}
+
+nav{
+    height: 5vh;
+    padding: 0.8rem;
+    text-align:right;
+    position: absolute;
+    top: 0.5%; left: 64%;
+    text-align: right;
+    
+    
+}
+
+nav a{
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    width: 8rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    border-style:groove;
+    
+}
+
+a:hover{
+    background-color: green;
+}
+:active{
+    background-color: white;
+}
+
+a[href="#"]{
+    background-color: green;
+    color: white;
+}
+
+main{
+    min-height: 80vh;
+    padding: 1rem;
+}
+
+section{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 10px;
+    
+}
+
+h2{
+    text-align:center;
+    font-size: 1.5rem;
+    border-style:groove;
+    border-width: medium;
+    border-color: black;
+}
+
+h3, h4{
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+
