@@ -13,7 +13,7 @@ header {
   width: 80vw;
   height: 25vh;
   margin: 80px 10%;
-  background-image: url(//asset/img/design1_image1.ico);
+  background-image: url(../asset/img/design1_image1.ico);
   background-size: cover;
   background-position: 40%;
   padding: 0.5rem;
@@ -68,7 +68,9 @@ a[href="#"] {
 }
 main {
   min-height: 80vh;
-  padding: 1rem;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
 }
 h2 {
   text-align: center;
@@ -102,4 +104,7 @@ div p {
   padding-left: 40px;
   font-family: sans-serif;
   font-weight: bold;
+}
+.reglas{
+  display: flex;
 }
