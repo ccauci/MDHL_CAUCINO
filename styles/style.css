@@ -38,8 +38,8 @@ header > h1 {
 nav {
   width: 80px;
   height: auto;
-  display: inline;
-  padding: 0.8rem;
+  display: inline-flex;
+  padding: 0.05rem;
   text-align: right;
   position: relative;
   left: 38rem;
@@ -83,6 +83,7 @@ h2 {
   border-style: groove;
   border-width: medium;
   border-color: black;
+  margin-top: -60px;
 }
 .texto {
   display: flex;
@@ -151,3 +152,8 @@ div p.email {
   width: 40%;
   caption-side: bottom;
 }
+
+fieldset{
+  padding: 0.5rem;
+}
+
